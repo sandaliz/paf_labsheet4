@@ -1,8 +1,9 @@
 package com.example.greetingapi;
 
-public record Greeting (long id, String content) {
-    
+import java.time.LocalDate;
 
+public record Greeting (long id, String content, LocalDate date) {
+    
 }
 
 // madam's way
